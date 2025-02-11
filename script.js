@@ -28,10 +28,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (contactMethod === 'email') {
             const email = document.getElementById('emailInput').value;
-            const mailtoLink = `mailto:boyzantshuxeko@icloud.com?subject=Contact from ${firstName} ${lastName}&body=${message}`;
+            const mailtoLink = `mailto:v33phaks@gmail.com?subject=Contact from ${firstName} ${lastName}&body=${message}`;
             window.location.href = mailtoLink;
         } else if (contactMethod === 'phone') {
-            const whatsappMessage = `https://wa.me/270835320411?text=Hello, my name is ${firstName} ${lastName}. ${message}`;
+            const whatsappMessage = `https://wa.me/27637660739?text=Hello, my name is ${firstName} ${lastName}. ${message}`;
             window.open(whatsappMessage, '_blank');
         }
     };
